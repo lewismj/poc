@@ -1,6 +1,7 @@
 project(analytics-core)
 
 set(SOURCES src/core.cpp)
+set(HEADERS src/core.h)
 
 
 add_library(${PROJECT_NAME} ${SOURCES})
