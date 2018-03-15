@@ -1,5 +1,10 @@
 # Apache Ignite - Proof of Concept
 
+## Summary
+<p align="left">
+<img src="https://travis-ci.org/lewismj/poc.svg?branch=master"/>
+</p>
+
 This project is a simple proof-of-concept for Apache Ignite.
 
 ## Components
