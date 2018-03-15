@@ -9,11 +9,35 @@ This project is a simple proof-of-concept for Apache Ignite.
 
 ## Build Instructions
 
-To build an install POC:
+### Prerequisites
+
+- C++ compiler
+- CMake
+- Python
+- Swig
+- Docker
+
+To install these under MacOS, use Homebrew:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install python
+brew install cmake
+brew install clang
+brew install docker
+```
+
+### Building the POC
+
+The POC uses a small native C++ library together with Python interface, this can be built
+and installed as follows:
 
 ```
 cmake -DCMAKE_INSTALL_PREFIX=~/poc/analytics && make all install
 ```
+
+
+
 
 ## Running Demo
 
