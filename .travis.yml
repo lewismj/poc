@@ -1,5 +1,9 @@
 sudo: required
 
+addons:
+  apt_packages:
+    - swig
+
 language: cpp
 
 compiler: clang
