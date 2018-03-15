@@ -45,7 +45,3 @@ cmake -DCMAKE_INSTALL_PREFIX=~/poc/analytics && make all install
 
 ## Running Demo
 
-### Docker
-
-
-
