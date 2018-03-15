@@ -17,6 +17,7 @@ This project is a simple proof-of-concept for Apache Ignite.
 ### Prerequisites
 
 - C++ compiler
+- Boost
 - CMake
 - Python
 - Swig
@@ -26,9 +27,10 @@ To install these under MacOS, use Homebrew:
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install --with-clang llvm
+brew install boost
 brew install python
 brew install cmake
-brew install clang
 brew install docker
 ```
 
