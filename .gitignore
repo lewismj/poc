@@ -4,6 +4,12 @@
 .idea
 
 CMakeCache.txt/**
+**/Makefile/**
+cmake_install.cmake/**
+**/CMakeFiles/**
+**/CMakeFiles/**
+
+CMakeCache.txt/**
 CMakeFiles/**
 CMakeScripts/**
 Makefile/**
