@@ -30,13 +30,12 @@ brew install docker
 ### Building the POC
 
 The POC uses a small native C++ library together with Python interface, this can be built
-and installed as follows:
+and installed as follows (you can specify where you want to install my changing the 
+`CMAKE_INSTALL_PREFIX` parameter):
 
 ```
 cmake -DCMAKE_INSTALL_PREFIX=~/poc/analytics && make all install
 ```
-
-
 
 
 ## Running Demo
