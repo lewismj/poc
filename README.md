@@ -2,8 +2,9 @@
 
 ## Summary
 <p align="left">
+<a href="https://travis-ci.org/lewismj/poc">
 <img src="https://travis-ci.org/lewismj/poc.svg?branch=master"/>
-</p>
+</a>
 
 This project is a simple proof-of-concept for Apache Ignite.
 
