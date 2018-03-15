@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.92)
+cmake_minimum_required(VERSION 3.9.2)
 project(poc)
 
 # Analytics library:
