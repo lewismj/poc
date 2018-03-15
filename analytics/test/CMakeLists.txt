@@ -1,6 +1,6 @@
 project(analytics-test)
 
-find_package(Boost 1.64 REQUIRED COMPONENTS unit_test_framework)
+find_package(Boost 1.54 REQUIRED COMPONENTS unit_test_framework)
 
 
 add_executable(${PROJECT_NAME} src/core_test.cpp)
